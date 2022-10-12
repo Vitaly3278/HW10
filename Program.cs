@@ -24,3 +24,14 @@ for (int j = 0; j < size; j++)
     }
 }
 Console.WriteLine();
+Console.Write("Массив из строк, длина которых меньше, либо равна 3 символа: ");
+PrintArray(finalArray);
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
